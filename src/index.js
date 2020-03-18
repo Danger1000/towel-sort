@@ -4,5 +4,5 @@ module.exports = function towelSort (matrix) {
         if(index&1) return item.reverse();
         else return item;
     });
-  return resultArrarray.flat(1);
+  return resultArray.flat(1);
 }
